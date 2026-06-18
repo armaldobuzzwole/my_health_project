@@ -1,19 +1,13 @@
 {
-  "name": "my_health_project",
+  "name": "health-system",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
-    "sqlite3": "^6.0.1"
-  }
+  "main": "server.js",
   "scripts": {
-  "start": "node server.js"
-}
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.6"
+  }
 }
