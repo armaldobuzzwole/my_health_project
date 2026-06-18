@@ -91,7 +91,4 @@ app.delete('/health-logs', (req, res) => {
     });
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+app.listen(3000, () => console.log('伺服器啟動於 http://localhost:3000'));
